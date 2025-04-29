@@ -1,0 +1,77 @@
+/* cor main: #23183b
+cor header: #1b122e
+cor sec: #ff55ac
+cor box: #4b3c69 */
+
+header{
+    background-color: #1b122e;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 20px;
+    color: rgb(253, 235, 255);
+}
+#logo{
+    height: auto;
+    width: 120px;
+    margin: 0;
+    display:flex;
+}
+body{
+    background-color: #23183b;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(253, 235, 255);
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(253, 235, 255);
+
+}
+nav ul li a:hover{
+    color: #ff55cc;
+}
+div{
+    padding-top: 100px;
+
+}
+div div.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 900px; 
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+div div div.box{
+    background-color: #2f2447;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 200px;
+    padding: 10px;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px #1b122e;
+}
