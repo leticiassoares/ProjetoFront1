@@ -66,12 +66,26 @@ div div div.box{
     background-color: #2f2447;
     font-weight: bold;
     display: flex;
+    flex-direction: column;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1.2rem;
     height: 200px;
-    padding: 10px;
+    padding: 20px;
     aspect-ratio: 1 / 1;
     box-sizing: border-box;
     box-shadow: 0 4px 8px #1b122e;
+}
+
+div div div img.icons{
+    width: 40px;
+    height: auto;
+}
+
+div div h1#skill-set{
+    color: #ff55cc;
+}
+
+div div.titulo{
+    padding-left: 70px;
 }
