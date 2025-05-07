@@ -50,7 +50,7 @@ nav ul li a:hover{
     color: #ff55cc;
 }
 div{
-    padding-top: 100px;
+    padding-top: 60px;
 
 }
 div div.container{
@@ -58,7 +58,7 @@ div div.container{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 40px 20px;
-    max-width: 900px; 
+    max-width: 640px; 
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -87,5 +87,23 @@ div div h1#skill-set{
 }
 
 div div.titulo{
-    padding-left: 70px;
+    padding-left: 28vw;
+}
+
+div div div.titulo{
+    padding-left: 28vw;
+    padding-right: ;
+}
+
+div div.first-container{
+    display: flex;
+    flex-direction: row;
+}
+
+div div div img#guia{
+    width: 180px;
+    height: auto;
+}
+div div div#div-guia{
+    padding-left: 180px;
 }
